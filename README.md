@@ -6,7 +6,7 @@
 ## Introduction:
 
 
-* The C progamming langauge was created by Dennis ritchie at Bell Telephone Laboratories in 1972.
+* The C progamming langauge was created by Dennis Ritchie at Bell Telephone Laboratories in 1972.
 * C was created for the specfic purpose of designing the UNIX operating system. 
 * Many programmers used C to solve problems. This resulted in disharmony, so the American National STandards Institute (ANSI) formed a committe in 1983 to create ANSI Standard C. Modern compilers adhere to these standards.
 * There was a predecessor language named B (That's why it's called C).
@@ -55,6 +55,8 @@ Q. **What's is the purpose of a file with the extension ".c" in a C program?**
 Q. **What's is the purpose of a file with the extension ".o" or ".obj" in a C program?** 
 
 Q. **Draw a graph of the C compilation model.** 
+
+Q. **Who created the C programming language?. Where did he work? What was the year?** 
 
 
 **Define:**
@@ -136,3 +138,58 @@ printf(""\nA x is %d bytes"," sizeof( x ));
 
 For example: 
 printf(""\nA int is %d bytes"," sizeof( int ));
+
+Be careful not to define variables outside outside the allowed range! For example:
+
+short count = 1000000;
+unsigned int value = -29000;
+
+You should **NOT** do this! Your program might even compile, but your results will be incorrect. 
+
+
+
+**Quiz:**
+
+
+Q. **Why not just always use larger datatypes (such as long or double) when declaring variables?** 
+
+Q. **What would be the output for the following line of code?**
+		*int pi = 3.14;*
+
+
+Q. **What would happen when the following code is executed? Explain why: **
+		*short hoursProgramming = 399388299039;*
+		*printf(hoursProgramming);*
+
+Q. **What's the difference between an integer variable and a floating-point variable?** 
+
+Q. **Go through the following variable declarations and indicate if they would compile. Explain why they would or they would not.** 
+	*int Percent = 4;*
+	*int yw8_444 = 0;*
+	*int _Percent = 9;*
+	*int double = 2;*
+	*boolean 4sale = true;*
+	*boolean Percent = 4;*
+	
+Q. **If a software engineer was following standard C programming conventions, what is true about a variable she named "TICKETS" ?** 
+
+Q. **If a software engineer was following standard C programming conventions, what is the difference between a function she named "_convertStringsToChar* and "_convertStringsToChar* ?** 
+
+Q. **True or false, C is case sensitive?** 
+
+Q. **If a laptop is marketed as having 8 GB or ram, how many bytes of Random Access Memory does it have?** 
+
+Q. **If James assignes a variable as a constant and then restarts his computer, is that variable still allocated in RAM?** 
+
+Q. **What is the byte range of a char?** 
+
+Q. **Explain what a keyword is in C:** 
+
+Q. **What is the byte range of a char?** 
+
+Q. **What is the difference between a signed and unsigned int?** 
+	
+
+
+**Programming Challenge:**
+*Write a basic program that adds two numbers (Be sure to include a main function).*
