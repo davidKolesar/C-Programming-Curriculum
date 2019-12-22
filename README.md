@@ -173,7 +173,7 @@ Q. **Go through the following variable declarations and indicate if they would c
 	
 Q. **If a software engineer was following standard C programming conventions, what is true about a variable she named "TICKETS" ?** 
 
-Q. **If a software engineer was following standard C programming conventions, what is the difference between a function she named "_convertStringsToChar* and "_convertStringsToChar*?** 
+Q. **If a software engineer was following standard C programming conventions, what is the difference between a function she named "convertStringsToChar*" and *"_convertStringsToChar?* ** 
 
 Q. **True or false, C is case sensitive?** 
 
