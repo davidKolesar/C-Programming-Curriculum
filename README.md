@@ -39,8 +39,7 @@
 
 ### C Development lifecycle model:
 
-![alt text](/CCompilationModel.jpg "The C Compilation Model"
-
+![alt text](/CCompilationModel.jpg "The C Compilation Model")
 
 
 
