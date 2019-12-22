@@ -101,5 +101,20 @@ Q. **Explain the use of #define versus const**
 * function definition
 
 
+## Memory and Variables:
 
-21DEC19
+**_Random Access Memory_**
+
+* A computer uses **Random Access Memory** (RAM) to store information while it operates. 
+* RAM is volatile -- meaning that it is erased and replaced with new information when needed. 
+* RAM is wiped when a computer is restared. 
+
+The amount of RAM each computer has installed is typically denoted in Gigabytes (GB). 
+
+-- One gigabyte of memory is 1024 megabytes (MB). 
+-- One megabyte of memory is 1,024 kilobytes (KB). 
+-- One kilobyte of memory is 1024 **bytes**.
+
+A **byte** is a fundamental 
+
+Ergo, a computer with 4GB of memory would have a total of 4,294,967,296 bytes of RAM.   
