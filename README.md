@@ -24,20 +24,20 @@
 
 ### What is the lifecycle of a C program?
 
-0. _Source Code Files (.c)_
+0. **Source Code Files (.c)**
 *A programmer writes a disk file creating the source code:* 
 
   *printf("Helo World");*
 
  
-1._Object Files ( .obj or .o)_ 
+1. **Object Files ( .obj or .o)** 
 The source code is compiled to create an object file (translating the human readable source code into binary). 
 *This is performed by the compiler. This binary is known as object code. The disk file containing them is an [object file](https://en.wikipedia.org/wiki/Object_file).*
 
  
-2. _Linking  (.h)_ 
+2. **Linking  (.h)** 
 The compiled code is linked to create a .exe file. 
-*Library functions (such as printf() ) are _predefined functions_. These functions are those which have been defined in advance by the compiler to solve problems that almost every programmer will need (such as printing to the console). The object file produced is linked to the predefined library functions to create the final executable program. This is done with a _linker_.* 
+*Library functions (such as printf() ) are **predefined functions**. These functions are those which have been defined in advance by the compiler to solve problems that almost every programmer will need (such as printing to the console). The object file produced is linked to the predefined library functions to create the final executable program. This is done with a **linker**.* 
 
 
 ### C Development lifecycle model:
@@ -72,13 +72,14 @@ Q. **Draw a graph of the C compilation model.**
 
 Created examples illustrating basic concepts in C:
 
-*_helloWorld_* -- Always start with a helloWorld program! Illustrates working program. 
+* **helloWorld** 
+	* -- Always start with a helloWorld program! Illustrates working program. 
 
-*_ageCalculator_ / calculateArea*
+* **ageCalculator / calculateArea**
 
-* -- Illustrates #include, function calls, variables, function prototypes vs function definitions, && use of _#define_.
-	* _#define_ is a pre-processor directive while const is actually a keyword. This means if define is used to, for example, define some values with a name (string). This means the defined string is known as a _Macro definition_ in C/C++. However, const is a keyword or used to make the value of an identifier (that is constant) constant.
-	* a _function prototype_ provied the compiler with the name and arguments of the functions contained in the program -- appearing before the function is actually used.*
+	* -- Illustrates #include, function calls, variables, function prototypes vs function definitions, && use of **#define**.
+	* **#define** is a pre-processor directive while const is actually a keyword. This means if define is used to, for example, define some values with a name (string). This means the defined string is known as a **Macro definition** in C/C++. However, const is a keyword or used to make the value of an identifier (that is constant) constant.
+	* a **function prototype** provied the compiler with the name and arguments of the functions contained in the program -- appearing before the function is actually used.*
 	* a function definition is the actual statements written in a user-defined function.
 
 
@@ -96,7 +97,7 @@ Q. **Explain the use of #define versus const**
 
 * function 
 * variable
-* function prototype_
+* function prototype
 * function definition
 
 
