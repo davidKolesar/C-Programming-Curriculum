@@ -45,7 +45,10 @@ The compiled code is linked to create a .exe file.
 ![alt text](/CCompilationModel.jpg "The C Compilation Model")
 
 
+
 _Quiz:_
+
+
 Q. **What's is the purpose of a file with the extension ".h" in a C program?** 
 
 Q. **What's is the purpose of a file with the extension ".c" in a C program?** 
@@ -79,15 +82,16 @@ Created examples illustrating basic concepts in C:
 	* a _function prototype_ provied the compiler with the name and arguments of the functions contained in the program -- appearing before the function is actually used.*
 	* a function definition is the actual statements written in a user-defined function.
 
+
 _Quiz:_
+
+
 Q. **What's the difference between a statement and a block?** 
-A. A *block* is a series of *statements* within brackets.
 
 Q. **What are the two types of functions offered in C?**
-A. User-defined functions and library functions.
 
-Q. **What's the name of a file that's included?**
-A. Header file (.h).
+Q. **Explain the use of #define versus const**
+
 
 **Define:**
 
@@ -95,8 +99,7 @@ A. Header file (.h).
 * variable
 * function prototype_
 * function definition
-* #define versus const
-*.
+
 
 
 21DEC19
