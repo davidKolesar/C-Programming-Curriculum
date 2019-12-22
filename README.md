@@ -24,8 +24,8 @@
 
 ## What is the lifecycle of a C program?
 
-1. A programmer writes a disk file creating the source code. 
-2. The source code is compiled to create an object file.
+1. A programmer writes a disk file creating the source code (such as ' printf("Helo World"); '). 
+2. The source code is compiled to create an object file (translating the human readable source code into binary). This is performed by the compiler. This binary is known as object code. The disk file containing them is an [object file](https://en.wikipedia.org/wiki/Object_file). 
 3. The compiled code is linked to create a .exe file. 
 
 
