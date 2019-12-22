@@ -37,6 +37,11 @@
 *Library functions (such as printf() ) are _predefined functions_. These functions are those which have been defined in advance by the compiler to solve problems that almost every programmer will need (such as printing to the console). The object file produced is linked to the predefined library functions to create the final executable program. This is done with a _linker_.* 
 
 
+### C Development lifecycle model:
+
+![alt text](/CCompilationModel.jpg "The C Compilation Model"
+
+
 
 
 Created examples illustrating basic concepts in C. These include: 
