@@ -1,7 +1,7 @@
 # C-Exercises
 11FEB2018
 
-#C Programming Language:
+# C Programming Language:
 
 ## Introduction:
 
@@ -12,7 +12,7 @@
 * There was a predecessor language named B (That's why it's called C).
 
 
-##Why would you use C?
+## Why would you use C?
 
 * C is a [Turing-Complete Langauge](https://en.wikipedia.org/wiki/Turing_completeness).
 * C is [portable language](https://en.wikipedia.org/wiki/Software_portability).
@@ -22,7 +22,12 @@
 	* low level code
 * C is also object-oriented
 
-##
+## What is the lifecycle of a C program?
+
+1. A programmer writes a disk file creating the source code. 
+2. The source code is compiled to create an object file.
+3. The compiled code is linked to create a .exe file. 
+
 
 
 Created examples illustrating basic concepts in C. These include: 
