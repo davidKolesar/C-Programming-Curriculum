@@ -127,8 +127,5 @@ When declaring numeric variables, they fall into two categories:
 * **Floating-point** variables hold values that have a fractional part (real numbers).
 
 
-| Data Type     | keyword       | Range       | Bytes Required|
-| ------------- |:-------------:| -----------:|---------------:
-| Character     |char           | -128 TO 127 | 1
-| col 2 is      | centered      |   $12       |
-| zebra stripes | are neat      |    $1       |
+
+![alt text](/dataTypes.png "Data Types in C")
