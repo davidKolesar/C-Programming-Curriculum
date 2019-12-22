@@ -113,8 +113,22 @@ The amount of RAM each computer has installed is typically denoted in Gigabytes 
 
 -- One gigabyte of memory is 1024 megabytes (MB). 
 -- One megabyte of memory is 1,024 kilobytes (KB). 
--- One kilobyte of memory is 1024 **bytes**.
-
-A **byte** is a fundamental 
+-- One kilobyte of memory is 1024 **bytes**. A **byte** is a fundamental unit of computer data storage. 
 
 Ergo, a computer with 4GB of memory would have a total of 4,294,967,296 bytes of RAM.   
+
+The RAM in a computer is organized sequentially. That is, each byte follows another and hs their own unique address in memory that is used to identify it. While RAM has several uses, data storage is the function that is the pirmary concern for the C programmer. When you declare a variable, what you're really doing is naming a data storage location in your computer's memory.
+
+When declaring numeric variables, they fall into two categories:
+
+* **Integer variables** -- Numeric values that hold no fractional part (whole numbers). 
+	* *Signed integers* can hold positive or negative values. 
+	* *unsigned* integer can only hold positive values (including 0). 
+* **Floating-point** variables hold values that have a fractional part (real numbers).
+
+
+| Data Type     | keyword       | Range       | Bytes Required|
+| ------------- |:-------------:| -----------:|---------------:
+| Character     |char           | -128 TO 127 | 1
+| col 2 is      | centered      |   $12       |
+| zebra stripes | are neat      |    $1       |
