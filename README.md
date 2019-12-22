@@ -129,3 +129,10 @@ When declaring numeric variables, they fall into two categories:
 
 
 ![alt text](/dataTypes.png "Data Types in C")
+
+
+* *Note :* Where x = your datatype, you can get the size of a datatype with the following line:
+printf(""\nA x is %d bytes"," sizeof( x ));
+
+For example: 
+printf(""\nA int is %d bytes"," sizeof( int ));
