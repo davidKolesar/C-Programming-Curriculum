@@ -45,8 +45,7 @@ The compiled code is linked to create a .exe file.
 ![alt text](/CCompilationModel.jpg "The C Compilation Model")
 
 
-
-_Quiz:_
+**Quiz:**
 
 
 Q. **What's is the purpose of a file with the extension ".h" in a C program?** 
@@ -83,7 +82,7 @@ Created examples illustrating basic concepts in C:
 	* a function definition is the actual statements written in a user-defined function.
 
 
-_Quiz:_
+**Quiz:**
 
 
 Q. **What's the difference between a statement and a block?** 
