@@ -1,11 +1,38 @@
 # C-Exercises
 11FEB2018
 
+#C Programming Language:
+
+## Introduction:
+
+
+* The C progamming langauge was created by Dennis ritchie at Bell Telephone Laboratories in 1972.
+* C was created for the specfic purpose of designing the UNIX operating system. 
+* Many programmers used C to solve problems. This resulted in disharmony, so the American National STandards Institute (ANSI) formed a committe in 1983 to create ANSI Standard C. Modern compilers adhere to these standards.
+* There was a predecessor language named B (That's why it's called C).
+
+
+##Why would you use C?
+
+* C is a [Turing-Complete Langauge](https://en.wikipedia.org/wiki/Turing_completeness).
+* C is [portable language](https://en.wikipedia.org/wiki/Software_portability).
+* C is a mid-level language. Ergo, it's ideal for:
+	* drivers
+	* kernels
+	* low level code
+* C is also object-oriented
+
+##
+
+
 Created examples illustrating basic concepts in C. These include: 
 
 * basic mathematical examples
 * basic concepts in C
 * debugging exercises
+
+
+
 
 
 21DEC19
