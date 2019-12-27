@@ -193,3 +193,24 @@ Q. **What is the difference between a signed and unsigned int?**
 
 **Programming Challenge:**
 *Write a basic program that adds two numbers (Be sure to include a main function).*
+
+
+
+## Components of a C program:
+
+**_Statements_**
+
+* **Statements** are a complete instruction that directs the computer in question to carry out some task -- usually these are one per line. 
+* **Compound Statements** (also known as **blocks*) are a group of two or more C statements.
+
+This is a _statement_: 
+
+	printf("I have opinions!");
+
+This is a _block_:
+
+  { // start of block
+        printf("People are imprisoned in their phones.");
+        printf("That's why they're called cell phones.");
+  } // end ofblock
+
