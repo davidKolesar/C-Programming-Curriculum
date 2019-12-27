@@ -1,4 +1,4 @@
-# C-Exercises
+# C Course Curriculum (C 11)
 11FEB2018
 
 # C Programming Language:
@@ -214,3 +214,23 @@ This is a _block_:
         printf("That's why they're called cell phones.");
   } // end ofblock
 
+
+**_Operators_**
+
+* An **operator** is a symbol that instructs C to perform some kind of operation. Operators fall into one of several categories:
+
+	_Assignment Operator_
+
+	Assignment is whenever a program demarks the value of an object with the equals sign. This sign is used differently here than it would be in mathematics. For example, consider the statement:
+	
+	x = y;
+	
+	In mathematics, this would read that "x and y are equal." Instead, in C programming, this would be read "Assign the value of x to y." 
+	
+
+_Mathemetical Operators_
+
+	These are a specific branch of operators that perform (you guessed it) mathematical operations (such as addition and subtraction).
+
+_Relational Operators__
+_Logical Operators_
