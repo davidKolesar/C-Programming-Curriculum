@@ -27,6 +27,8 @@ machine languages and high-level languages. Simply put, C forces the programmer 
 that would otherwise be handled for them in a higher-level language (such as Java or C#). By requiring attention to such details, it makes an excellent candidate for a 
 theory/practice based course. 
 
+The folowing course information is text that would be presented as power-point slides to supplement lecture. 
+
 My hope is that the student, autodidact, or otherwise curious individual can walk away with from this course with a greater appreciation for both.
 
 27DEC19
@@ -327,5 +329,24 @@ This is because the prefix model of the unary operator is used, so the value of 
 	* Division :  				x **/** y
 
 
+**Order Of Mathematical Operations**
+
+	* Operations are performed in the following order:
+	
+		* Unary decrement and increment
+		* Multiplication, Division, and Modulus
+		* Addition and subraction
+
+	* When an expression contains more than one operator of the same importance, they are solved left to right. For example:
+	
+		a * b / c * d  
+		
+		In this example, a is multiplied by b. The product is divided by c, and the quotient of this is multiplied by d.
+	
+	
+
+
 _Relational Operators__
+
+
 _Logical Operators_
