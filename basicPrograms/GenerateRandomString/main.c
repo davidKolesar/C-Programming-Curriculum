@@ -1,25 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-int main()
+char* main()
 {
-    char output[] = "randomString20charsX";
+    char* output = "ReplaceWithRandomText";
     size_t numberOfCharsInOutput = strlen(output);
-    char charset[] = "0123456789"
+    const char charset[] = "0123456789"
                      "!@#$%^&*"
                      "abcdefghijklmnopqrstuvwxyz"
                      "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    size_t numberOfCharsInCharset = strlen(charset);
+        for (size_t i = 0; i < numberOfCharsInOutput ; i++)
+        {
+            int key = rand() % (int) (sizeof charset - 1);
+            output[i] = charset[key];
+        }
+        //null terminate
+        output[numberOfCharsInOutput] = '\0';
 
-
-    for(int i = 0; i < numberOfCharsInOutput; i++)
-    {
-       int randomNumber = (rand() % (numberOfCharsInCharset - 0 + 1)) + 0;
-       char charToAdd = charset[randomNumber];
-        // append ch to str
-        strncat(output, &charToAdd, i);
-    }
     printf("%s\n", output);
-    return 0;
+    return output;
 }
