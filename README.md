@@ -36,7 +36,7 @@ My hope is that the student, autodidact, or otherwise curious individual can wal
 David Kolesar
  
 
-## Introduction:
+### Introduction:
 
 
 * The C progamming langauge was created by Dennis Ritchie at Bell Telephone Laboratories in 1972.
@@ -45,7 +45,7 @@ David Kolesar
 * There was a predecessor language named B (That's why it's called C).
 
 
-### Why would you use C?
+## Why would you use C?
 
 * C is a [Turing-Complete Langauge](https://en.wikipedia.org/wiki/Turing_completeness).
 * C is [portable language](https://en.wikipedia.org/wiki/Software_portability).
@@ -55,7 +55,7 @@ David Kolesar
 	* low level code
 * C is also object-oriented
 
-### What is the lifecycle of a C program?
+## What is the lifecycle of a C program?
 
 0. **Source Code Files (.c)**
 *A programmer writes a disk file creating the source code:* 
@@ -73,7 +73,7 @@ The compiled code is linked to create a .exe file.
 *Library functions (such as printf() ) are **predefined functions**. These functions are those which have been defined in advance by the compiler to solve problems that almost every programmer will need (such as printing to the console). The object file produced is linked to the predefined library functions to create the final executable program. This is done with a **linker**.* 
 
 
-### C Development lifecycle model:
+## C Development lifecycle model:
 
 ![alt text](/CCompilationModel.jpg "The C Compilation Model")
 
@@ -136,7 +136,7 @@ Q. **Explain the use of #define versus const**
 * function definition
 
 
-## Memory and Variables:
+### Unit 1: Memory and Variables:
 
 **_Random Access Memory_**
 
@@ -229,7 +229,7 @@ Q. **What is the difference between a signed and unsigned int?**
 
 
 
-## Components of a C program:
+### Unit 2: Components of a C program:
 
 **_Statements_**
 
