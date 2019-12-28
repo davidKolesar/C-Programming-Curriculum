@@ -3,6 +3,29 @@
 
 # C Programming Language:
 
+
+## Course Philosophy:
+
+There is a major difference between enterprise level code and academic code. Speaking strictly from professional experience, I cannot even count how many times 
+I have seen a great student with a four year degree in computer science flounder as a junior developer. Meanwhile, I have also seen countless examples of  
+bright graduates from a 12 week coding bootcamp confidently contributing solutions and leading code reviews at their first job with virtually no on the job 
+training, yet have no understanding whatsoever of the underlying processes that make their code work. This is not to say that one path is better than another, 
+but rather that both are suited for different tasks. A thorough knowledge of computer science and a powerful command of theory are going to empower people to 
+make higher-level design decisions and give a greater appreciation for the tools they're using. 
+
+As both an educator and a software engineer, I wholeheartedly feel that our society is currently faced with recognizing major changes on how we educate and prepare 
+the workforce of future software developers to solve problems. To date, would be very hard pressed to find traditional four year degree programs teaching students 
+modern architecture patterns (such as dependency injection and Model/View/Controller) or industry standards on which tools are used to solve modern programming problems. 
+
+
+This being said, my approach in teaching starts with recognizing the value of both approaches. Instead of seeing them as two diametrically opposing forces, I feel 
+that theory and practice should work together without compromising each other. That is, you can have classes that create practical engineers who know a thing or 
+two about computer science. I feel that this can most sincerely be acheived by a comprehensive course curriculum comprised of both theory-focused courses and 
+enterprise level application development focused courses. 
+
+
+ 
+
 ## Introduction:
 
 
@@ -284,7 +307,8 @@ y = ++x;
  
 This is because the prefix model of the unary operator is used, so the value of x is incremented before assignment to the value of y. 
 
-	When the 
+
+ 
 
 
 
