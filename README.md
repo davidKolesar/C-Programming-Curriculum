@@ -230,7 +230,64 @@ This is a _block_:
 
 _Mathemetical Operators_
 
-	These are a specific branch of operators that perform (you guessed it) mathematical operations (such as addition and subtraction).
+	These are a specific branch of operators that perform (you guessed it) mathematical operations (such as addition and subtraction). These can be broken into *unary* and *binary* operators. *Unary* operators take a single operand, whereas *binary* operators take two operands. Consider the following:
+	
+	_Unary Operators__
+	
+	Increment variable x with unary operator:
+	
+		x = 1;	//the value of x is assigned to one
+
+		x++;	//The unary operator increments x by 1
+	
+		x; 		//the value of x is now 2
+
+	Incrementing a variable with unary operator also works this way:
+	
+		x = 1;	//the value of x is assigned to one
+
+		++x;	//The unary operator increments x by 1
+	
+		x; 		//the value of x is now 2
+
+	Similarly decrementing a variable with unary operator also works this way:
+	
+		x = 1;	//the value of x is assigned to one
+
+		x--;	//The unary operator increments x by 1
+	
+		x; 		//the value of x is now 0
+
+	The same pattern of placing the operator before or after the variable holds true for decrementing:
+	
+		x = 1;	//the value of x is assigned to one
+
+		--x;	//The unary operator increments x by 1
+	
+		x; 		//the value of x is now 0
+
+The difference between putting the operator before ( ++x; known as prefix mode ) and after ( x++; known as postfix mode) is when the variable is modified. In enterprise programming the difference is marginal, but academically it's worth noting that there is a difference. Namely, prefix mode incremends and decrements modify the variable before the operand is used in the enclosing expression, whereas they are modified afterwards in postfix mode. Consider the following example:
+
+x = 10;
+y = x++;
+
+When this code is executed, x has the value of 11 and y has the value of 10. Why? The order of operations is as follows:
+
+1. The value of x was assigned as 10.
+2. The value of x was assigned to y;
+3. X was incremented. 
+ 
+ On the contrary, both x and y equal 11 in the following example:
+ 
+x = 10;
+y = ++x;
+ 
+This is because the prefix model of the unary operator is used, so the value of x is incremented before assignment to the value of y. 
+
+	When the 
+
+
+
 
 _Relational Operators__
 _Logical Operators_
