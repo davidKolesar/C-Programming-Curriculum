@@ -7,23 +7,31 @@
 ## Course Philosophy:
 
 There is a major difference between enterprise level code and academic code. Speaking strictly from professional experience, I cannot even count how many times 
-I have seen a great student with a four year degree in computer science flounder as a junior developer. Meanwhile, I have also seen countless examples of  
+I have seen successful students with four year degrees in computer science flounder in a junior developer position. Meanwhile, I have also seen countless examples of  
 bright graduates from a 12 week coding bootcamp confidently contributing solutions and leading code reviews at their first job with virtually no on the job 
 training, yet have no understanding whatsoever of the underlying processes that make their code work. This is not to say that one path is better than another, 
-but rather that both are suited for different tasks. A thorough knowledge of computer science and a powerful command of theory are going to empower people to 
-make higher-level design decisions and give a greater appreciation for the tools they're using. 
+but rather that both are suited for different tasks. A thorough knowledge of computer science and a powerful command of theory are going to empower developers to 
+make high-level design decisions and give a greater appreciation for the tools they're using. Similarly, understanding dependency injection, writing code that 
+people know how to read, and following trends of what technologies are used to solve modern programming problems are what's going to get things working at the office.
 
-As both an educator and a software engineer, I wholeheartedly feel that our society is currently faced with recognizing major changes on how we educate and prepare 
-the workforce of future software developers to solve problems. To date, would be very hard pressed to find traditional four year degree programs teaching students 
-modern architecture patterns (such as dependency injection and Model/View/Controller) or industry standards on which tools are used to solve modern programming problems. 
+As both an educator and a software engineer, I wholeheartedly feel that our society is currently faced with recognizing that major changes are warranted with how we educate 
+and prepare the workforce of future software developers to solve problems. 
 
+This being said, my philosophy on teaching starts with recognizing the value of both approaches. Instead of seeing them as two diametrically opposing forces, I feel 
+that theory and practice should work together without compromising each other in order to prepare students for solving real world problems. This includes both
+at the place of business and in higher education. I sincerely feel that this can most effectively be acheived by a comprehensive course curriculum comprised of 
+several theory-focused courses and other classes focused on enterprise level application development.
 
-This being said, my approach in teaching starts with recognizing the value of both approaches. Instead of seeing them as two diametrically opposing forces, I feel 
-that theory and practice should work together without compromising each other. That is, you can have classes that create practical engineers who know a thing or 
-two about computer science. I feel that this can most sincerely be acheived by a comprehensive course curriculum comprised of both theory-focused courses and 
-enterprise level application development focused courses. 
+This is where C comes in. This is a very special breed of programming language in that it is considered a _mid-level_ language -- meaning it has elements of both
+machine languages and high-level languages. Simply put, C forces the programmer to manually deal with lower-level processes of the language (such as memory allocation) 
+that would otherwise be handled for them in a higher-level language (such as Java or C#). By requiring attention to such details, it makes an excellent candidate for a 
+theory/practice based course. 
 
+My hope is that the student, autodidact, or otherwise curious individual can walk away with from this course with a greater appreciation for both.
 
+27DEC19
+
+David Kolesar
  
 
 ## Introduction:
