@@ -263,7 +263,7 @@ _Mathemetical Operators_
 
 	These are a specific branch of operators that perform (you guessed it) mathematical operations (such as addition and subtraction). These can be broken into *unary* and *binary* operators. *Unary* operators take a single operand, whereas *binary* operators take two operands. Consider the following:
 	
-	_Unary Operators__
+	_Unary Operators_
 	
 	Increment variable x with unary operator:
 	
@@ -316,9 +316,15 @@ y = ++x;
 This is because the prefix model of the unary operator is used, so the value of x is incremented before assignment to the value of y. 
 
 
- 
+	_Binary Operators_
 
-
+	Binary operators are a lot more familiar and include common mathematical operators the student has likely been exposed to as part of high school mathemathics:
+	
+	* Addition :  				x **+** y
+	* Subtraction :  			x **+-** y
+	* Multiplication :  		x ***** y
+	* Modulus :  				x **%** y
+	* Division :  				x **/** y
 
 
 _Relational Operators__
