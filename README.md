@@ -451,7 +451,6 @@ Q. **Next to each operator, list which category it belongs to:**
 * ||
 * !
 * if
-* +
 * =
 * ==
 * =
@@ -465,16 +464,19 @@ Q. **Next to each operator, list which category it belongs to:**
 Q. **Which of the following is an example of assignment?**
 
 int a = 1;
+
 int b == 1;
 
 Q. **What is the value of x and y in the following code?** 
 
 x = 10;
+
 y = x++;
 
 Q. **What is the value of x and y in the following code?** 
 
 x = 10;
+
 y = ++x;
 
 Q. **What is the difference between unary and binary operators?** 
