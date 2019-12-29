@@ -357,7 +357,7 @@ _Relational Operators__
 **Note : In C, the value _1_ equates to true and _0_ equates to false.**
 	
 
-	Perhaps the most important relational operator you will learn about is the _if statement_. These are statements which are part of a family of statements known as _program control statements_. These statemetns contain an expression which, if evaluating to true, instruct the program to execute the code within the brackets. Consider the following example:
+Perhaps the most important relational operator you will learn about is the _if statement_. These are statements which are part of a family of statements known as _program control statements_. These statemetns contain an expression which, if evaluating to true, instruct the program to execute the code within the brackets. Consider the following example:
 		
 		int Irene = 1;
 		
@@ -366,17 +366,17 @@ _Relational Operators__
 			printf("Irene is greater than or equal to four.");
 		}
 	
-	In this case, the code will )not) execute because the value of the variable is 1, meaning the conditions are not met to result in the expression being true. While it is 
-	not modern convention, oldschool if statements can be written in C without brackets. For example:
+In this case, the code will )not) execute because the value of the variable is 1, meaning the conditions are not met to result in the expression being true. While it is 
+not modern convention, oldschool if statements can be written in C without brackets. For example:
 
 		int Irene = 1;
 		
 		if (Irene >= 4 )
 			printf("Irene is greater than or equal to four.");
 	
-	Again, this is not common practice, but the first and second example perform the exact same work. 
+Again, this is not common practice, but the first and second example perform the exact same work. 
 	
-	The if statement is often paired with an else clause. The else clause is executed on the condition that the if statement's conditions are _not_ met. For example:
+The if statement is often paired with an else clause. The else clause is executed on the condition that the if statement's conditions are _not_ met. For example:
 
 
 		int Irene = 1;
@@ -390,19 +390,19 @@ _Relational Operators__
 			printf("Irene is not greater than or equal to four.");
 		}
 	
-	In this case, the program will print "Irene is not greater than or equal to four" since the evaluated expression witin the if statement does not evaluate to true. 
+In this case, the program will print "Irene is not greater than or equal to four" since the evaluated expression witin the if statement does not evaluate to true. 
 
 _Logical Operators_
 
-	Logical operators exist in case the programmer needs to ask more than one question at once. For example, imagine an intelligence system that evaluates "If the target 
-	exists in a conflict zone, possesses hostile enemy elements, and is clear of noncombattant civilians, report that the area is clear for smart missile contact." The
-	logical operator functionality of C allows the programmer to evaluate all of these conditionis in one expression. C only has three logical operators, which are as follows:
+Logical operators exist in case the programmer needs to ask more than one question at once. For example, imagine an intelligence system that evaluates "If the target 
+exists in a conflict zone, possesses hostile enemy elements, and is clear of noncombattant civilians, report that the area is clear for smart missile contact." The
+logical operator functionality of C allows the programmer to evaluate all of these conditionis in one expression. C only has three logical operators, which are as follows:
 	
 	&& -- AND
 	|| -- OR
 	! -- NOT
 	
-	In the following examples, all of these expressions would be evaluated as true:
+In the following examples, all of these expressions would be evaluated as true:
 	
 	boolean isTrue = true;
 	boolean isFalse = false;
@@ -439,4 +439,43 @@ _Logical Operators_
 	
 	**Note :*** Sometimes new developers are confused by the "or" operator. In both cases, _one_ of the conditions is true, so the code executes. 
 	
-	
+
+
+**Quiz:**
+
+
+Q. **What are the four kinds of operators?** 
+
+Q. **Next to each operator, list which category it belongs to:**
+
+* ||
+* !
+* if
+* +
+* =
+* ==
+* =
+* ==
+* ++
+* --
+* %
+* <
+* =<
+
+Q. **What is the value of x and y in the following code?** 
+
+x = 10;
+y = x++;
+
+Q. **What is the value of x and y in the following code?** 
+
+x = 10;
+y = ++x;
+
+
+**Define:**
+
+* function 
+* variable
+* function prototype
+* function definition
