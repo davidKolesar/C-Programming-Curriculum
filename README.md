@@ -238,14 +238,14 @@ Q. **What is the difference between a signed and unsigned int?**
 
 This is a _statement_: 
 
-	printf("I have opinions!");
+		printf("I have opinions!");
 
 This is a _block_:
 
-  { // start of block
-        printf("People are imprisoned in their phones.");
-        printf("That's why they're called cell phones.");
-  } // end ofblock
+		  { // start of block
+				printf("People are imprisoned in their phones.");
+				printf("That's why they're called cell phones.");
+		  } // end ofblock
 
 
 **_Operators_**
@@ -256,7 +256,7 @@ This is a _block_:
 
 	Assignment is whenever a program demarks the value of an object with the equals sign. This sign is used differently here than it would be in mathematics. For example, consider the statement:
 	
-	x = y;
+		x = y;
 	
 	In mathematics, this would read that "x and y are equal." Instead, in C programming, this would be read "Assign the value of x to y." 
 	
@@ -265,9 +265,9 @@ _Mathemetical Operators_
 
 	These are a specific branch of operators that perform (you guessed it) mathematical operations (such as addition and subtraction). These can be broken into *unary* and *binary* operators. *Unary* operators take a single operand, whereas *binary* operators take two operands. Consider the following:
 	
-	_Unary Operators_
+_Unary Operators_
 	
-	Increment variable x with unary operator:
+Increment variable x with unary operator:
 	
 		x = 1;	//the value of x is assigned to one
 
@@ -275,7 +275,7 @@ _Mathemetical Operators_
 	
 		x; 		//the value of x is now 2
 
-	Incrementing a variable with unary operator also works this way:
+Incrementing a variable with unary operator also works this way:
 	
 		x = 1;	//the value of x is assigned to one
 
@@ -283,15 +283,15 @@ _Mathemetical Operators_
 	
 		x; 		//the value of x is now 2
 
-	Similarly decrementing a variable with unary operator also works this way:
+Similarly decrementing a variable with unary operator also works this way:
 	
 		x = 1;	//the value of x is assigned to one
 
 		x--;	//The unary operator increments x by 1
 	
 		x; 		//the value of x is now 0
-
-	The same pattern of placing the operator before or after the variable holds true for decrementing:
+		
+The same pattern of placing the operator before or after the variable holds true for decrementing:
 	
 		x = 1;	//the value of x is assigned to one
 
@@ -301,8 +301,8 @@ _Mathemetical Operators_
 
 The difference between putting the operator before ( ++x; known as prefix mode ) and after ( x++; known as postfix mode) is when the variable is modified. In enterprise programming the difference is marginal, but academically it's worth noting that there is a difference. Namely, prefix mode incremends and decrements modify the variable before the operand is used in the enclosing expression, whereas they are modified afterwards in postfix mode. Consider the following example:
 
-x = 10;
-y = x++;
+		x = 10;
+		y = x++;
 
 When this code is executed, x has the value of 11 and y has the value of 10. Why? The order of operations is as follows:
 
@@ -312,15 +312,15 @@ When this code is executed, x has the value of 11 and y has the value of 10. Why
  
  On the contrary, both x and y equal 11 in the following example:
  
-x = 10;
-y = ++x;
+		x = 10;
+		y = ++x;
  
 This is because the prefix model of the unary operator is used, so the value of x is incremented before assignment to the value of y. 
 
 
-	_Binary Operators_
+_Binary Operators_
 
-	Binary operators are a lot more familiar and include common mathematical operators the student has likely been exposed to as part of high school mathemathics:
+Binary operators are a lot more familiar and include common mathematical operators the student has likely been exposed to as part of high school mathemathics:
 	
 	* Addition :  				x **+** y
 	* Subtraction :  			x **+-** y
@@ -462,6 +462,11 @@ Q. **Next to each operator, list which category it belongs to:**
 * <
 * =<
 
+Q. **Which of the following is an example of assignment?**
+
+int a = 1;
+int b == 1;
+
 Q. **What is the value of x and y in the following code?** 
 
 x = 10;
@@ -472,10 +477,52 @@ Q. **What is the value of x and y in the following code?**
 x = 10;
 y = ++x;
 
+Q. **What is the difference between unary and binary operators?** 
+
+Q. **Define whether each expression will evaluate to true or false:**
+
+* (1 == 1)
+* (1)
+* (-1)
+* (1 == 1 && 1 == 2)
+* (1 == 1 || 1 == 2)
+* (1 = 1)
+
 
 **Define:**
-
-* function 
-* variable
-* function prototype
+* code block
+* Operator
+* expression 
+* code block
+* Operator
 * function definition
+
+
+**Programming Challenges:**
+
+* Rewrite the expression so that a single if statement can be used such that __it evaluates to the same outcome__:
+
+			if ( x > 1 ) 
+			{
+				if ( x < 20 ) 
+				{
+					printf("I hate tests.");
+				}
+			
+			}
+			
+* The following program contains a nasty bug! Fix the bug in the program:
+
+		#include <stdio.h>
+		int x = 1;
+		int main (  ) 
+		{
+		if (x = 1) 
+			printf("Hello world!");
+		else 
+			printf("Goodbye world");
+		} 
+
+**Extra Credit Challenge:**
+
+Write a program that takes a variable and calculates if it is a prime number. The variable should be able to be _any_ integer.
