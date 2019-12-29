@@ -354,5 +354,43 @@ _Relational Operators__
 ![alt text](/relationalOperators.png "Relational Operators in C")
 
 
+**Note : In C, the value _1_ equates to true and _0_ equates to false.**
+	
+
+	Perhaps the most important relational operator you will learn about is the _if statement_. These are statements which are part of a family of statements known as _program control statements_. These statemetns contain an expression which, if evaluating to true, instruct the program to execute the code within the brackets. Consider the following example:
+		
+		int Irene = 1;
+		
+		if (Irene >= 4 )
+		{
+			printf("Irene is greater than or equal to four.");
+		}
+	
+	In this case, the code will )not) execute because the value of the variable is 1, meaning the conditions are not met to result in the expression being true. While it is 
+	not modern convention, oldschool if statements can be written in C without brackets. For example:
+
+		int Irene = 1;
+		
+		if (Irene >= 4 )
+			printf("Irene is greater than or equal to four.");
+	
+	Again, this is not common practice, but the first and second example perform the exact same work. 
+	
+	The if statement is often paired with an else clause. The else clause is executed on the condition that the if statement's conditions are _not_ met. For example:
+
+
+		int Irene = 1;
+		
+		if (Irene >= 4 )
+		{
+			printf("Irene is greater than or equal to four.");
+		}
+		else 
+		{
+			printf("Irene is not greater than or equal to four.");
+		}
+	
+	In this case, the program will print "Irene is not greater than or equal to four" since the evaluated expression witin the if statement does not evaluate to true. 
 
 _Logical Operators_
+
