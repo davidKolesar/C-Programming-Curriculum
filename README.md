@@ -394,3 +394,49 @@ _Relational Operators__
 
 _Logical Operators_
 
+	Logical operators exist in case the programmer needs to ask more than one question at once. For example, imagine an intelligence system that evaluates "If the target 
+	exists in a conflict zone, possesses hostile enemy elements, and is clear of noncombattant civilians, report that the area is clear for smart missile contact." The
+	logical operator functionality of C allows the programmer to evaluate all of these conditionis in one expression. C only has three logical operators, which are as follows:
+	
+	&& -- AND
+	|| -- OR
+	! -- NOT
+	
+	In the following examples, all of these expressions would be evaluated as true:
+	
+	boolean isTrue = true;
+	boolean isFalse = false;
+	
+	
+	if(isTrue == true && isFalse == false)
+	{
+		printf("The expression is true");
+	}
+	
+	
+	if(isTrue == true || isFalse == false)
+	{
+		printf("The expression is true");
+	}
+	
+	
+	if(isTrue == false || isFalse == false)
+	{
+		printf("The expression is true");
+	}
+	
+	
+	if(isTrue == true || isFalse == true)
+	{
+		printf("The expression is true");
+	}
+	
+	
+	if(isTrue != false)
+	{
+		printf("The expression is true");
+	}
+	
+	**Note :*** Sometimes new developers are confused by the "or" operator. In both cases, _one_ of the conditions is true, so the code executes. 
+	
+	
