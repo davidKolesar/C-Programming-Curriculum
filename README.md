@@ -527,4 +527,4 @@ Q. **Define whether each expression will evaluate to true or false:**
 
 **Extra Credit Challenge:**
 
-Write a program that takes a variable and calculates if it is a prime number. The variable should be able to be _any_ integer.
+Write a program that evaluates a variable and calculates if it is a prime number. The variable should be able to be _any_ integer.
