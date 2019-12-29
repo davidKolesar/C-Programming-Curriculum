@@ -348,5 +348,11 @@ This is because the prefix model of the unary operator is used, so the value of 
 
 _Relational Operators__
 
+ * Relational operations are expressions whose result is always *true* or *false.*  The following table illustrates the relational operators in C:
+ 
+ 
+![alt text](/relationalOperators.png "Relational Operators in C")
+
+
 
 _Logical Operators_
