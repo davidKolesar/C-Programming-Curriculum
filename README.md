@@ -543,7 +543,7 @@ Imagine your boss approaches you and explains that you need to write a program t
 
 Please take the time to write this program. Your result might look something like the following example:
 
-#include <stdio.h>
+		#include <stdio.h>
 
 		main()
 		{
@@ -595,7 +595,7 @@ One of the things that you might notice from this simple example is that it actu
 Attempt to write this program with functions so that it doesn't repeat itself. Remember, it's *okay* if you tried something and it doesn't work correctly! I presently work for a guy who used to repair aircraft for the United States Air Force. The way he puts it is that, one of the benefits of software engineering versus other kinds of engineering is that things won't blow up in your face or fall out of the sky if you do them wrong! Simply put, this is a **safe place** to make mistakes (before you start programming software for fighter jets!). When you finish, your program might look something like this: 
 
  
-		 #include <stdio.h>
+		#include <stdio.h>
 
 		main()
 		{
@@ -648,7 +648,7 @@ Attempt to write this program with functions so that it doesn't repeat itself. R
 			printf("b");    
 		}
 
-**NOTE --** For an interactive copy of this example with a functioning C compiler, check: https://onlinegdb.com/HJJazYMxP
+**NOTE --** For an interactive example with a functioning C compiler, check: https://onlinegdb.com/HJJazYMxP
 
 In this case, we have the exact same use case that does the exact same thing. The difference here is that we have code that doesn't repeat itself. That said, some of the keen students might ask what we've gained by doing this? After all, we ended up writing more code to do the exact same thing as we were doing previously! What might not be obvious in this example may make itself more clear in the next two coding challenges: 
 
@@ -691,7 +691,7 @@ Imagine your boss approaches you and explains that you need to write a program t
 			return 0;
 		}
 
-**Note == interactive example can be found at:** https://onlinegdb.com/HJBgnwMxD
+**Note -- interactive example can be found at:** https://onlinegdb.com/HJBgnwMxD
 
 Simply put, this is a program that takes a positive integer from the user and prints to the console if the integer is a prime number or not. It's very straight-forward and does one thing. However, enterprise level code is seldom this simple. An enterprise level programmer will often be put into positions where they are expected to refactor code or repurpose it to include different acceptance criteria. 
 
@@ -807,5 +807,4 @@ If we were following the DRY principle, we might end up with something like this
 			 printf( "\n\nArea \ %d\n", area);
 		}
 
-
-**Note == interactive example can be found at:** https://onlinegdb.com/BJv-KKMxv
+**Note -- interactive example can be found at:** https://onlinegdb.com/BJv-KKMxv
