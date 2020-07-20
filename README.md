@@ -535,6 +535,72 @@ Functions are a fundamental component of C programming and virtually all modern 
 
 **Code Challenge:**
 
+Imagine your boss approaches you and explains that you need to write a program that takes in user input and gives a specific output depending on what it is. Specifically, the usecase she is looking for is:
+
+1. If the user passes in "1," the program reutrns "a"
+2. If the user passes in "2," the program returns "b"
+3. If the user passes in "3," the program returns "ab"
+
+Please take the time to write this program. Your result might look something like the following example:
+
+#include <stdio.h>
+
+		main()
+		{
+			int userInput, i, isValid, isPrime = 0;
+			printf("This program retuns 'a' if '1' is input. \n");
+			printf("This program retuns 'b' if '2' is input. \n");
+			printf("This program retuns 'ab' if '3' is input. \n");
+
+			
+			//perform user validation
+			while (isValid == 0)
+			{   
+				printf("Enter 1, 2, or 3:  \n");
+				scanf("%d", &userInput);
+
+				if( userInput <= 3 && userInput >= 1 )
+				{
+					isValid = 1;
+				}
+			}
+			
+			if(userInput == 1)
+			{
+				printf("a");
+			}
+
+			if(userInput == 2)
+			{
+				printf("b");
+			}
+
+			if(userInput == 3)
+			{
+				printf("a");
+				printf("b");
+			}
+
+					
+			return 0;
+		}
+
+**NOTE --** For an interactive copy of this example with a functioning C compiler, check: https://onlinegdb.com/rJaH1Yflv
+
+One of the things that you might notice from this simple example is that it actually repeats code. Specifically, ues case "3" just prints "a" and "b" all over again. While it actually prints them on top of each other, what we're really doing is duplicating code here. This violates something in programming known as the **"DRY" PRINCIPLE** (**D**on't **R**epeat **Y**ourself!). What that means is that you don't want to end up repeating code over and over again within a program. In our specific case, this can be aleviated by adding functions to our program.  
+
+
+**Code Challenge:**
+
+Attempt to write this program with functions so that it doesn't repeat itself. Remember, it's *okay* if you tried something and it doesn't work correctly! I presently work for a guy who used to repair aircraft for the United States Air Force. The way he puts it is that, one of the benefits of software engineering versus other kinds of engineering is that things won't blow up in your face or fall out of the sky if you do them wrong! Simply put, this is a **safe place** to make mistakes (before you start programming software for fighter jets!). When you finish, your program might look something like this: 
+
+ 
+ 
+ 
+
+
+**Code Challenge:**
+
 Imagine your boss approaches you and explains that you need to write a program that takes in user input and determines if the given number is prime. You might be a smarty-pants and have it already finished as the previous unit's extra credit assignment, want to write your own now, or continue with the instructor's exmaple from the previous unit. Either is okay, although it is **strongly** suggested that you use your own program. That said, your solution might look something like this: 
 
 		#include <stdio.h>
