@@ -585,11 +585,17 @@ Simply put, this is a program that takes a positive integer from the user and pr
 
 We already have a working program that calculates area for a user given input (located in the example program folder). However, as mentioned previously, it is most beneficial to write one yourself. The completed product might look something like this: 
 
+			#include <stdio.h>
 
-    printf("Enter radius to calculate area: ");
-    scanf ( "%d", &radius);
-    area = (int) (3.14159 * radius * radius);
-    printf( "\n\nArea \ %d\n", area);
-    return 0;
+			int radius, area;
+
+			int main( void )
+			{
+				printf("Enter radius to calculate area: ");
+				scanf ( "%d", &radius);
+				area = (int) (3.14159 * radius * radius);
+				printf( "\n\nArea \ %d\n", area);
+				return 0;
+			}
 
 So how do we slap these two pieces together to solve the acceptance criteria? 
