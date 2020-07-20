@@ -324,7 +324,7 @@ Binary operators are a lot more familiar and include common mathematical operato
 	
 	* Addition :  				x + y
 	* Subtraction :  			x +- y
-	* Multiplication :  		x * y
+	* Multiplication :				x * y
 	* Modulus :  				x % y
 	* Division :  				x / y
 
@@ -531,4 +531,47 @@ Write a program that evaluates a variable and calculates if it is a prime number
 
 **Interactive Extra Credit Answer can be found at:** https://onlinegdb.com/HJBgnwMxD
 
-### Unit 3: Memory and Variables:
+### Unit 3: Functions:
+
+Functions are a fundamental component of C programming and virtually all modern languages. While you have already been exposed to some functions from the C library, this unit will focus on creating our own functions and understanding each component. Simply put, a **function** is a named, indepedent block of code that does a specific thing that can be called within other sections of code. Consider the following program: 
+
+		#include <stdio.h>
+
+		int
+		main()
+		{
+			int userInput, i, isPrime = 0;
+			printf("This program calculates if a positive integer is prime. \n");
+			printf("Enter a positive integer: ");
+			scanf_s("%d", &userInput);
+
+			for (i = 2; i <= userInput / 2; ++i)
+			{
+				if (userInput % i == 0)
+				{
+					isPrime = 1;
+					break;
+				}
+			}
+
+			if (userInput == 0 || userInput == 1 || userInput == 2)
+			{
+				isPrime = 1;
+			}
+
+			if (isPrime == 1)
+			{
+				printf("%d is not a prime number.", userInput);
+			}
+			else
+			{
+				printf("%d is a prime number.", userInput);
+			}
+			return 0;
+		}
+
+This is a program that takes a positive integer from the user and prints to the console if the integer is a prime number or not. It's very straight-forward and does one thing. However, enterprise level code is seldom this simple. An enterprise level programmer will often be put into positions where they are expected to refactor code or repurpose it to include different acceptance criteria. In this case, let's suppose you hear from your boss that the customer wants this program to be adapted to three total use cases:
+
+1. The program calculates if a number is prime (which it already does).
+2. The program calculates area for a given number.  
+3. The program gives the option to either calculate if the number is prime, area of the number, or both.  
