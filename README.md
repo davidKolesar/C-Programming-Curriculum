@@ -595,13 +595,66 @@ One of the things that you might notice from this simple example is that it actu
 Attempt to write this program with functions so that it doesn't repeat itself. Remember, it's *okay* if you tried something and it doesn't work correctly! I presently work for a guy who used to repair aircraft for the United States Air Force. The way he puts it is that, one of the benefits of software engineering versus other kinds of engineering is that things won't blow up in your face or fall out of the sky if you do them wrong! Simply put, this is a **safe place** to make mistakes (before you start programming software for fighter jets!). When you finish, your program might look something like this: 
 
  
- 
- 
+		 #include <stdio.h>
 
+		main()
+		{
+			int userInput, i, isValid, isPrime = 0;
+			printf("This program retuns 'a' if '1' is input. \n");
+			printf("This program retuns 'b' if '2' is input. \n");
+			printf("This program retuns 'ab' if '3' is input. \n");
+
+			
+			//perform user validation
+			while (isValid == 0)
+			{   
+				printf("Enter 1, 2, or 3:  \n");
+				scanf("%d", &userInput);
+
+				if( userInput <= 3 && userInput >= 1 )
+				{
+					isValid = 1;
+				}
+			}
+			
+			if(userInput == 1)
+			{
+				printA();
+			}
+
+
+			if(userInput == 2)
+			{
+				printB();
+			}
+
+
+			if(userInput == 3)
+			{
+				printA();
+				printB();
+			}
+
+			return 0;
+		}
+
+		void printA() 
+		{
+			printf("a");    
+		}
+
+		void printB() 
+		{
+			printf("b");    
+		}
+
+**NOTE --** For an interactive copy of this example with a functioning C compiler, check: https://onlinegdb.com/HJJazYMxP
+
+In this case, we have the exact same use case that does the exact same thing. The difference here is that we have code that doesn't repeat itself. That said, some of the keen students might ask what we've gained by doing this? After all, we ended up writing more code to do the exact same thing as we were doing previously! What might not be obvious in this example may make itself more clear in the next two coding challenges: 
 
 **Code Challenge:**
 
-Imagine your boss approaches you and explains that you need to write a program that takes in user input and determines if the given number is prime. You might be a smarty-pants and have it already finished as the previous unit's extra credit assignment, want to write your own now, or continue with the instructor's exmaple from the previous unit. Either is okay, although it is **strongly** suggested that you use your own program. That said, your solution might look something like this: 
+Imagine your boss approaches you and explains that you need to write a program that takes in user input and determines if the given number is prime. You might be a smarty-pants and have it already finished as the previous unit's extra credit assignment. However, if want to write your own now or continue with the instructor's exmaple from the previous unit, that's okay too. However, it is **strongly** suggested that you use your own program. That said, your solution might look something like this: 
 
 		#include <stdio.h>
 
@@ -638,8 +691,14 @@ Imagine your boss approaches you and explains that you need to write a program t
 			return 0;
 		}
 
+**Note == interactive example can be found at:** https://onlinegdb.com/HJBgnwMxD
 
-Simply put, this is a program that takes a positive integer from the user and prints to the console if the integer is a prime number or not. It's very straight-forward and does one thing. However, enterprise level code is seldom this simple. An enterprise level programmer will often be put into positions where they are expected to refactor code or repurpose it to include different acceptance criteria. In this case, let's suppose you hear from your boss again that the customer wants this program to be adapted to three total use cases:
+Simply put, this is a program that takes a positive integer from the user and prints to the console if the integer is a prime number or not. It's very straight-forward and does one thing. However, enterprise level code is seldom this simple. An enterprise level programmer will often be put into positions where they are expected to refactor code or repurpose it to include different acceptance criteria. 
+
+
+**Code Challenge:**
+
+In this case, let's suppose you hear from your boss again that the customer wants this program to be adapted to three total use cases:
 
 1. The program calculates if a number is prime (which it already does).
 2. The program calculates area for a given number.  
@@ -662,4 +721,4 @@ We already have a working program that calculates area for a user given input (l
 				return 0;
 			}
 
-So how do we slap these two pieces together to solve the acceptance criteria? 
+So how do we slap these two pieces together to solve the acceptance criteria? Remember, we can use functions to help us so that we don't repeat our code! 
