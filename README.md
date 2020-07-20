@@ -527,7 +527,7 @@ Q. **Define whether each expression will evaluate to true or false:**
 
 Write a program that evaluates a variable and calculates if it is a prime number. The variable should be able to be _any_ integer.
 
-**Interactive Extra Credit Answer can be found at:** https://onlinegdb.com/HJBgnwMxD
+**Interactive Extra Credit Answer can be found at:** https://onlinegdb.com/HJBgnwMxD or in PrimeNumberExample within this repository.
 
 ### Unit 3: Functions:
 
@@ -585,7 +585,7 @@ Please take the time to write this program. Your result might look something lik
 			return 0;
 		}
 
-**NOTE --** For an interactive copy of this example with a functioning C compiler, check: https://onlinegdb.com/rJaH1Yflv
+**NOTE --** For an interactive copy of this example with a functioning C compiler, check: https://onlinegdb.com/rJaH1Yflv or in functionsExample1 within this repository.
 
 One of the things that you might notice from this simple example is that it actually repeats code. Specifically, ues case "3" just prints "a" and "b" all over again. While it actually prints them on top of each other, what we're really doing is duplicating code here. This violates something in programming known as the **"DRY" PRINCIPLE** (**D**on't **R**epeat **Y**ourself!). What that means is that you don't want to end up repeating code over and over again within a program. In our specific case, this can be aleviated by adding functions to our program.  
 
@@ -648,7 +648,7 @@ Attempt to write this program with functions so that it doesn't repeat itself. R
 			printf("b");    
 		}
 
-**NOTE --** For an interactive example with a functioning C compiler, check: https://onlinegdb.com/HJJazYMxP
+**NOTE --** For an interactive example with a functioning C compiler, check: https://onlinegdb.com/HJJazYMxP or in functionsExample2 within this repository.
 
 In this case, we have the exact same use case that does the exact same thing. The difference here is that we have code that doesn't repeat itself. That said, some of the keen students might ask what we've gained by doing this? After all, we ended up writing more code to do the exact same thing as we were doing previously! What might not be obvious in this example may make itself more clear in the next two coding challenges: 
 
@@ -691,7 +691,7 @@ Imagine your boss approaches you and explains that you need to write a program t
 			return 0;
 		}
 
-**Note -- interactive example can be found at:** https://onlinegdb.com/HJBgnwMxD
+**Note -- interactive example can be found at:** https://onlinegdb.com/HJBgnwMxD or in PrimeNumberExample within this repository.
 
 Simply put, this is a program that takes a positive integer from the user and prints to the console if the integer is a prime number or not. It's very straight-forward and does one thing. However, enterprise level code is seldom this simple. An enterprise level programmer will often be put into positions where they are expected to refactor code or repurpose it to include different acceptance criteria. 
 
@@ -807,4 +807,4 @@ If we were following the DRY principle, we might end up with something like this
 			 printf( "\n\nArea \ %d\n", area);
 		}
 
-**Note -- interactive example can be found at:** https://onlinegdb.com/BJv-KKMxv
+**Note -- interactive example can be found at:** https://onlinegdb.com/BJv-KKMxv or in functionsExample3 within this repository.
