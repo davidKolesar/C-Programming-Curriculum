@@ -41,7 +41,7 @@ David Kolesar
 
 * The C progamming langauge was created by Dennis Ritchie at Bell Telephone Laboratories in 1972.
 * C was created for the specfic purpose of designing the UNIX operating system. 
-* Many programmers used C to solve problems. This resulted in disharmony, so the American National STandards Institute (ANSI) formed a committe in 1983 to create ANSI Standard C. Modern compilers adhere to these standards.
+* Many programmers used C to solve problems. This resulted in disharmony, so the American National Standards Institute (ANSI) formed a committe in 1983 to create ANSI Standard C. Modern compilers adhere to these standards.
 * There was a predecessor language named B (That's why it's called C).
 
 
@@ -322,11 +322,11 @@ _Binary Operators_
 
 Binary operators are a lot more familiar and include common mathematical operators the student has likely been exposed to as part of high school mathemathics:
 	
-	* Addition :  				x **+** y
-	* Subtraction :  			x **+-** y
-	* Multiplication :  		x ***** y
-	* Modulus :  				x **%** y
-	* Division :  				x **/** y
+	* Addition :  				x + y
+	* Subtraction :  			x +- y
+	* Multiplication :  		x * y
+	* Modulus :  				x % y
+	* Division :  				x / y
 
 
 **Order Of Mathematical Operations**
@@ -528,3 +528,7 @@ Q. **Define whether each expression will evaluate to true or false:**
 **Extra Credit Challenge:**
 
 Write a program that evaluates a variable and calculates if it is a prime number. The variable should be able to be _any_ integer.
+
+**Interactive Extra Credit Answer can be found at:** https://onlinegdb.com/HJBgnwMxD
+
+### Unit 3: Memory and Variables:
