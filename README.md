@@ -261,7 +261,7 @@ This is a _block_:
 
 _Mathemetical Operators_
 
-	These are a specific branch of operators that perform (you guessed it) mathematical operations (such as addition and subtraction). These can be broken into *unary* and *binary* operators. *Unary* operators take a single operand, whereas *binary* operators take two operands. Consider the following:
+These are a specific branch of operators that perform (you guessed it) mathematical operations (such as addition and subtraction). These can be broken into *unary* and *binary* operators. *Unary* operators take a single operand, whereas *binary* operators take two operands. Consider the following:
 	
 _Unary Operators_
 	
