@@ -533,7 +533,11 @@ Write a program that evaluates a variable and calculates if it is a prime number
 
 ### Unit 3: Functions:
 
-Functions are a fundamental component of C programming and virtually all modern languages. While you have already been exposed to some functions from the C library, this unit will focus on creating our own functions and understanding each component. Simply put, a **function** is a named, indepedent block of code that does a specific thing that can be called within other sections of code. Consider the following program: 
+Functions are a fundamental component of C programming and virtually all modern languages. While you have already been exposed to some functions from the C library, this unit will focus on creating our own functions and understanding each component. Simply put, a **function** is a named, indepedent block of code that does a specific thing that can be called within other sections of code. We're going to see why these are important with a real life example. 
+
+**Code Challenge:**
+
+Imagine your boss approaches you and explains that you need to write a program that takes in user input and determines if the given number is prime. You might be a smarty-pants and have it already finished as the previous unit's extra credit assignment, want to write your own now, or continue with the instructor's exmaple from the previous unit. Either is okay, although it is **strongly** suggested that you use your own program. That said, your solution might look something like this: 
 
 		#include <stdio.h>
 
@@ -570,8 +574,22 @@ Functions are a fundamental component of C programming and virtually all modern 
 			return 0;
 		}
 
-This is a program that takes a positive integer from the user and prints to the console if the integer is a prime number or not. It's very straight-forward and does one thing. However, enterprise level code is seldom this simple. An enterprise level programmer will often be put into positions where they are expected to refactor code or repurpose it to include different acceptance criteria. In this case, let's suppose you hear from your boss that the customer wants this program to be adapted to three total use cases:
+
+Simply put, this is a program that takes a positive integer from the user and prints to the console if the integer is a prime number or not. It's very straight-forward and does one thing. However, enterprise level code is seldom this simple. An enterprise level programmer will often be put into positions where they are expected to refactor code or repurpose it to include different acceptance criteria. In this case, let's suppose you hear from your boss again that the customer wants this program to be adapted to three total use cases:
 
 1. The program calculates if a number is prime (which it already does).
 2. The program calculates area for a given number.  
 3. The program gives the option to either calculate if the number is prime, area of the number, or both.  
+ 
+
+
+We already have a working program that calculates area for a user given input (located in the example program folder). However, as mentioned previously, it is most beneficial to write one yourself. The completed product might look something like this: 
+
+
+    printf("Enter radius to calculate area: ");
+    scanf ( "%d", &radius);
+    area = (int) (3.14159 * radius * radius);
+    printf( "\n\nArea \ %d\n", area);
+    return 0;
+
+So how do we slap these two pieces together to solve the acceptance criteria? 
