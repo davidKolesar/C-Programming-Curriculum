@@ -7,9 +7,7 @@
 ## Course Philosophy:
 
 There is a major difference between enterprise level code and academic code. Speaking strictly from professional experience, I cannot even count how many times 
-I have seen students master theory and successfully matriculate from four year degree programs in computer science, only to flounder in a junior developer position. Meanwhile, I have also seen countless examples of  
-bright graduates from a 12 week coding bootcamp confidently contributing solutions and leading code reviews at their first place of employment with virtually no on the job 
-training, yet have no understanding whatsoever of the underlying processes that make their code work. This is not to say that one path is better than another, 
+I have seen students master theory and successfully matriculate from four year degree programs in computer science, only to flounder in a junior developer position. Meanwhile, I have also seen countless examples of  bright graduates from a 12 week coding bootcamp confidently contributing solutions and leading code reviews at their first place of employment with virtually no on the job training, yet have no understanding whatsoever of the underlying processes that make their code work. This is not to say that one path is better than another, 
 but rather that both are suited for different tasks. A thorough knowledge of computer science and a powerful command of theory are going to empower developers to 
 make high-level design decisions and give a greater appreciation for the tools they're using. Similarly, understanding dependency injection, writing code that 
 people know how to read, and following trends of what technologies are used to solve modern programming problems are what's going to get things working at the office.
