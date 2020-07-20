@@ -322,24 +322,24 @@ Binary operators are a lot more familiar and include common mathematical operato
 	
 	* Addition :  				x + y
 	* Subtraction :  			x +- y
-	* Multiplication :				x * y
+	* Multiplication :  			x * y
 	* Modulus :  				x % y
 	* Division :  				x / y
 
 
 **Order Of Mathematical Operations**
 
-	* Operations are performed in the following order:
+* Operations are performed in the following order:
 	
-		* Unary decrement and increment
-		* Multiplication, Division, and Modulus
-		* Addition and subraction
+	* Unary decrement and increment
+	* Multiplication, Division, and Modulus
+	* Addition and subraction
 
-	* When an expression contains more than one operator of the same importance, they are solved left to right. For example:
+* When an expression contains more than one operator of the same importance, they are solved left to right. For example:
 	
 		a * b / c * d  
 		
-		In this example, a is multiplied by b. The product is divided by c, and the quotient of this is multiplied by d.
+In this example, a is multiplied by b. The product is divided by c, and the quotient of this is multiplied by d.
 	
 	
 
