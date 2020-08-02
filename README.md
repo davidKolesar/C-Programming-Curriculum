@@ -62,6 +62,8 @@ A programming langauge is a set of artificial rules and sytanx that are used to 
 
 ## What is the lifecycle of a C program?
 
+Take a look at the helloWorld program that comes as an example with this class. They are located in the *"examplePrograms"* folder. Once inside the helloWorld folder, open the main.c program inside of a basic text editor (notepad is fine). Do not use more advanced text editors like Mircosoft Word, which will add markup information that will prevent your program from running properly.
+
 0. **Source Code Files (.c)**
 *A programmer writes a disk file creating the source code:* 
 
@@ -74,16 +76,18 @@ This source code is the human readable language that we use to give a computer a
 The source code is compiled by something known as a compiler. The process of **compiling** code is when it is turned from human readable source code into machine code (binary). This resulting machine code you are left with is known as **object code.** The disk file containing them is an [object file](https://en.wikipedia.org/wiki/Object_file).*
 
  
-2. **Linking  (.h)** 
+2. **Header Files -- Linking  (.h)**
+
+A header file is a file containing C declarations and macro definitions to that is shared between different source files. You request the use of a header file in your program by "including" it, with the C preprocessing directive *#include*. In our **helloWorld** program, we included *stuio.h.*
+ 
 The compiled code is **linked** to create a .exe file. At a very high level overview, linking is the process of collecting and combining all the difference pieces of object code into a single file that can has the ability to  be loaded into memory and executed.
-*Library functions (such as printf() ) are **predefined functions**. These functions are those which have been defined in advance by the compiler to solve problems that almost every programmer will need (such as printing to the console like we did above). The object file produced from our hello world program is linked to the predefined library functions to create the final executable program (.exe file extension). This is done with a **linker**.* 
+
+*Library functions (such as printf() ) are **predefined functions**. A function is a group of commands (or statements) that can be called upon to execute these commands in serial. These predefined functions are those which have been defined in advance by the compiler to solve problems that almost every programmer will need (such as printing to the console like we did above). This saves programmers the trouble of having to create all of their own functions to solve basic problems all the time. The object file produced from our "helloWorld" program is linked to the predefined library functions to create the final executable program (.exe file extension). This is done with a **linker**.* 
 
 
 ## C Development lifecycle model:
 
 ![alt text](/CCompilationModel.jpg "The C Compilation Model")
-
-A user 
 
 
 
