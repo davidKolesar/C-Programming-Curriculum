@@ -9,12 +9,13 @@
 There is a major difference between enterprise level code and academic code. Speaking strictly from professional experience, I cannot even count how many times 
 I have seen students master theory and successfully matriculate from four year degree programs in computer science, only to flounder in junior developer positions. Meanwhile, I have also seen countless examples of  bright graduates from a 12 week coding bootcamp confidently contributing solutions and leading code reviews at their first place of employment with virtually no on the job training, yet fail to have much understanding of the underlying processes that make their code work. This is not to say that one path is better than another, but rather that both are suited for different tasks. A thorough knowledge of computer science and a powerful command of theory are going to empower developers to make high-level design decisions and give a greater appreciation for the tools they're using. Similarly, understanding design patterns, being familir with practical features of a language like dependency injection, writing code that people know how to read, and following trends of what technologies are used to solve modern programming problems are what's going to get things working at the office.
 
-As both an educator and a software engineer, I wholeheartedly feel that contemporary educators are currently faced with recognizing that major changes are warranted with how we teach and prepare the workforce of future software developers to solve problems. 
+As both an educator and a software engineer, I wholeheartedly feel that contemporary educators are currently faced with recognizing that major changes are warranted with how we teach and prepare the workforce of future software developers to solve problems. That being said, this course will encourage the student to write code. It will provide original, working examples. It will present the student with bugs in order to have them solve it. 
 
 This being said, my philosophy on teaching starts with recognizing the value of both approaches. Instead of seeing them as two diametrically opposing forces, I feel 
 that theory and practice should work together without compromising each other in order to prepare students for solving real world problems. This includes both
 at the place of business and in higher education. I sincerely feel that this can most effectively be acheived by a comprehensive course curriculum comprised of 
 several theory-focused courses and other classes focused on enterprise level application development.
+
 
 This is where C comes in. This is a very special breed of programming language in that it is considered a _mid-level_ language -- meaning it has elements of both
 machine languages and high-level languages. Simply put, C forces the programmer to manually deal with lower-level processes of the language (such as memory allocation) that would otherwise be handled for them in a higher-level language (such as Java or C#). By requiring attention to such details, it makes an excellent candidate for a theory/practice based course. 
@@ -23,7 +24,7 @@ The folowing course information is text that would be presented as power-point s
 
 My hope is that the student, autodidact, or otherwise curious individual can walk away with from this course with a greater appreciation for both.
 
-With much sincerity and passion for knowledge,
+Knowledge is power! 
 
 David Kolesar
 
@@ -32,7 +33,7 @@ David Kolesar
  
 
 ### Introduction:
-
+**Some notes on the history of C:**
 
 * The C progamming langauge was created by Dennis Ritchie at Bell Telephone Laboratories in 1972.
 * C was created for the specfic purpose of designing the UNIX operating system. 
@@ -45,17 +46,22 @@ David Kolesar
 * C is a [Turing-Complete Langauge](https://en.wikipedia.org/wiki/Turing_completeness).
 * C is [portable language](https://en.wikipedia.org/wiki/Software_portability).
 * C is a mid-level language. Ergo, it's ideal for:
-	* drivers
-	* kernels
-	* low level code
-* C is also object-oriented
+	* drivers (https://en.wikipedia.org/wiki/Device_driver)
+	* kernels (https://en.wikipedia.org/wiki/Kernel_(operating_system))
+	* low level code 
+* C is also object-oriented (https://en.wikipedia.org/wiki/Object-oriented_programming)
+
+**NOTE -- The links provided are just extra reading to help introduce the student to terms they might be unfamiliar with. They are not required to understand the rest of the text. **
+
 
 ## What is the lifecycle of a C program?
 
 0. **Source Code Files (.c)**
 *A programmer writes a disk file creating the source code:* 
 
-  *printf("Helo World");*
+  *printf("Hello World!");*
+
+This source code is the human readable language that we use to give a computer a series of commands to execute. In the previous example above, the **source code** tells the computer we want to print the statement "Hello World!" to the console. We do this by typing out a a predefined *function* that our programming languages already recognizes (more on this later).
 
  
 1. **Object Files ( .obj or .o)** 
