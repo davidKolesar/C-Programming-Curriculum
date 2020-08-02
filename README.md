@@ -59,15 +59,22 @@ A programming langauge is a set of artificial rules and sytanx that are used to 
 
 **NOTE -- The links provided are just extra reading to help introduce the student to terms they might be unfamiliar with. They are not required to understand the rest of the text. **
 
+## What is hello world? 
+
+In computer programming, there's a tradition when learning a new language to make it display the phrase "Hello, world!" This is commonly done because displaying text is typically the most basic thing a given programming language will do. This way, the programmer knows that their environment is configured properly before they start trying to write more complicated programs. 
+
 
 ## What is the lifecycle of a C program?
 
-Take a look at the helloWorld program that comes as an example with this class. They are located in the *"examplePrograms"* folder. Once inside the helloWorld folder, open the main.c program inside of a basic text editor (notepad is fine). Do not use more advanced text editors like Mircosoft Word, which will add markup information that will prevent your program from running properly.
+
+Take a look at the helloWorld program that comes as an example with this class. They are located in the *"examplePrograms"* folder. Once inside the helloWorld folder, open the main.c program inside of a basic text editor (notepad is fine). Do not use more advanced text editors like Mircosoft Word, which will add markup information that will prevent your program from running properly. This is the "hello world" program mentioned in the previous paragraph. However, before we test it out, let's talk about the life-cycle of a C program. You don't just punch commands into a black box and have them suddenly execute. There is a process that all C programs go through, in which different files (with different file extensions) perform different tasks. 
+
+
 
 0. **Source Code Files (.c)**
 *A programmer writes a disk file creating the source code:* 
 
-  *printf("Hello World!");*
+  *printf("Hello, world!");*
 
 This source code is the human readable language that we use to give a computer a series of commands to execute. In the previous example above, the **source code** tells the computer we want to print the statement "Hello World!" to the console. We do this by typing out a a predefined *function* that our programming languages already recognizes (more on this later).
 
@@ -108,6 +115,7 @@ Q. **Who created the C programming language?. Where did he work? What was the ye
 
 **Define:**
 
+* compiler
 * compilation
 * linking
 * source code
@@ -119,34 +127,46 @@ Q. **Who created the C programming language?. Where did he work? What was the ye
 
 ## Components of a C program ("BasicPrograms" Directory):
 
-Created examples illustrating basic concepts in C:
+Take a look at the helloWorld program in the examples directory (remember, open the *main.c* file). We see the following:
 
-* **helloWorld** 
-	* -- Always start with a helloWorld program! Illustrates working program. 
 
-* **ageCalculator / calculateArea**
+		#include <stdio.h>
 
-	* -- Illustrates #include, function calls, variables, function prototypes vs function definitions, && use of **#define**.
-	* **#define** is a pre-processor directive while const is actually a keyword. This means if define is used to, for example, define some values with a name (string). This means the defined string is known as a **Macro definition** in C/C++. However, const is a keyword or used to make the value of an identifier (that is constant) constant.
-	* a **function prototype** provied the compiler with the name and arguments of the functions contained in the program -- appearing before the function is actually used.*
-	* a function definition is the actual statements written in a user-defined function.
+		int main()
+		{
+			printf("Hello, world!");
+			return 0;
+		}
+
+Let's disect this program:
+
+
+This program is made of a few different parts. The first are **statements.** A statement is a command given to the computer that instructs the computer to do something(such as display text to the screen). A computer program is made up of statements. Can you identify a statement in this program? If you said *printf("Hello, world!);*, you are correct!. The part that follows it (*return 0;)* is also a statement (more on return statements later).
+
+
+These two statements are encompassed with a **function.** A **function** is a group of statements that are grouped together perform a more complicated task task. Every C program has at least **one** function. This is called the the **main** function. The purpose of the **main** function is that, no matter where you write it, this is where your program will begin executing. There are more on functions in **Unit 3,** but for now this is all you need to know: 
+
+* A **function definition** is the actual statements written in a user-defined function.
+* A user-defiend function is one created by the user.
+* A Standard library functions is one that is not defined by the user. We used **printf()**, but we didn't define it. It's defined i nthe stdio.h library..
+
+
+
+**#include <stdio.h>** is a statement which tells the compiler to inject the code within the *stdio* file to be accessible within the *main.c* file. As mentioned in the preious section, **stdio.h** is a **header file.** It commonly deals with input and output within programs. 
+
 
 
 **Quiz:**
 
-
-Q. **What's the difference between a statement and a block?** 
-
 Q. **What are the two types of functions offered in C?**
 
-Q. **Explain the use of #define versus const**
+Q. **Identify each part of the helloWorld program.**
 
 
 **Define:**
 
 * function 
 * variable
-* function prototype
 * function definition
 
 
