@@ -40,6 +40,12 @@ David Kolesar
 * Many programmers used C to solve problems. This resulted in disharmony, so the American National Standards Institute (ANSI) formed a committe in 1983 to create ANSI Standard C. Modern compilers adhere to these standards.
 * There was a predecessor language named B (That's why it's called C).
 
+### So what is a programming language?
+
+A programming langauge is a set of artificial rules and sytanx that are used to create instructions for a computer. These instructions are called a program. Literally everything your computer does (play music, share pictures, send messages, access the internet, run games, etcetera) are a result of a series of instructions (called programs) that perform calculations behind the scenes to let you do these things. That's why they're called "computers." These tasks are the result of a series of computations. In this class, we'll be creating our own programs.  
+
+
+
 
 ## Why would you use C?
 
@@ -65,18 +71,21 @@ This source code is the human readable language that we use to give a computer a
 
  
 1. **Object Files ( .obj or .o)** 
-The source code is compiled to create an object file (translating the human readable source code into binary). 
-*This is performed by the compiler. This binary is known as object code. The disk file containing them is an [object file](https://en.wikipedia.org/wiki/Object_file).*
+The source code is compiled by something known as a compiler. The process of **compiling** code is when it is turned from human readable source code into machine code (binary). This resulting machine code you are left with is known as **object code.** The disk file containing them is an [object file](https://en.wikipedia.org/wiki/Object_file).*
 
  
 2. **Linking  (.h)** 
-The compiled code is linked to create a .exe file. 
-*Library functions (such as printf() ) are **predefined functions**. These functions are those which have been defined in advance by the compiler to solve problems that almost every programmer will need (such as printing to the console). The object file produced is linked to the predefined library functions to create the final executable program. This is done with a **linker**.* 
+The compiled code is **linked** to create a .exe file. At a very high level overview, linking is the process of collecting and combining all the difference pieces of object code into a single file that can has the ability to  be loaded into memory and executed.
+*Library functions (such as printf() ) are **predefined functions**. These functions are those which have been defined in advance by the compiler to solve problems that almost every programmer will need (such as printing to the console like we did above). The object file produced from our hello world program is linked to the predefined library functions to create the final executable program (.exe file extension). This is done with a **linker**.* 
 
 
 ## C Development lifecycle model:
 
 ![alt text](/CCompilationModel.jpg "The C Compilation Model")
+
+A user 
+
+
 
 
 **Quiz:**
@@ -246,7 +255,7 @@ This is a _block_:
 		  { // start of block
 				printf("People are imprisoned in their phones.");
 				printf("That's why they're called cell phones.");
-		  } // end ofblock
+		  } // end of block
 
 
 **_Operators_**
