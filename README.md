@@ -138,7 +138,7 @@ Take a look at the helloWorld program in the examples directory (remember, open 
 			return 0;
 		}
 
-Let's disect this program:
+Let's dissect this program:
 
 
 This program is made of a few different parts. The first are **statements.** A statement is a command given to the computer that instructs the computer to do something(such as display text to the screen). A computer program is made up of statements. Can you identify a statement in this program? If you said *printf("Hello, world!);*, you are correct!. The part that follows it (*return 0;)* is also a statement (more on return statements later).
@@ -477,7 +477,8 @@ In the following examples, all of these expressions would be evaluated as true:
 
 **Quiz:**
 
-
+Q. **What is the difference between a statement and a block?** 
+	
 Q. **What are the four kinds of operators?** 
 
 Q. **Next to each operator, list which category it belongs to:**
