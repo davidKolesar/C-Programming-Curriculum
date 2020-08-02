@@ -7,13 +7,9 @@
 ## Course Philosophy:
 
 There is a major difference between enterprise level code and academic code. Speaking strictly from professional experience, I cannot even count how many times 
-I have seen students master theory and successfully matriculate from four year degree programs in computer science, only to flounder in a junior developer position. Meanwhile, I have also seen countless examples of  bright graduates from a 12 week coding bootcamp confidently contributing solutions and leading code reviews at their first place of employment with virtually no on the job training, yet have no understanding whatsoever of the underlying processes that make their code work. This is not to say that one path is better than another, 
-but rather that both are suited for different tasks. A thorough knowledge of computer science and a powerful command of theory are going to empower developers to 
-make high-level design decisions and give a greater appreciation for the tools they're using. Similarly, understanding dependency injection, writing code that 
-people know how to read, and following trends of what technologies are used to solve modern programming problems are what's going to get things working at the office.
+I have seen students master theory and successfully matriculate from four year degree programs in computer science, only to flounder in junior developer positions. Meanwhile, I have also seen countless examples of  bright graduates from a 12 week coding bootcamp confidently contributing solutions and leading code reviews at their first place of employment with virtually no on the job training, yet fail to have much understanding of the underlying processes that make their code work. This is not to say that one path is better than another, but rather that both are suited for different tasks. A thorough knowledge of computer science and a powerful command of theory are going to empower developers to make high-level design decisions and give a greater appreciation for the tools they're using. Similarly, understanding design patterns, being familir with practical features of a language like dependency injection, writing code that people know how to read, and following trends of what technologies are used to solve modern programming problems are what's going to get things working at the office.
 
-As both an educator and a software engineer, I wholeheartedly feel that our society is currently faced with recognizing that major changes are warranted with how we educate 
-and prepare the workforce of future software developers to solve problems. 
+As both an educator and a software engineer, I wholeheartedly feel that contemporary educators are currently faced with recognizing that major changes are warranted with how we teach and prepare the workforce of future software developers to solve problems. 
 
 This being said, my philosophy on teaching starts with recognizing the value of both approaches. Instead of seeing them as two diametrically opposing forces, I feel 
 that theory and practice should work together without compromising each other in order to prepare students for solving real world problems. This includes both
@@ -21,17 +17,18 @@ at the place of business and in higher education. I sincerely feel that this can
 several theory-focused courses and other classes focused on enterprise level application development.
 
 This is where C comes in. This is a very special breed of programming language in that it is considered a _mid-level_ language -- meaning it has elements of both
-machine languages and high-level languages. Simply put, C forces the programmer to manually deal with lower-level processes of the language (such as memory allocation) 
-that would otherwise be handled for them in a higher-level language (such as Java or C#). By requiring attention to such details, it makes an excellent candidate for a 
-theory/practice based course. 
+machine languages and high-level languages. Simply put, C forces the programmer to manually deal with lower-level processes of the language (such as memory allocation) that would otherwise be handled for them in a higher-level language (such as Java or C#). By requiring attention to such details, it makes an excellent candidate for a theory/practice based course. 
 
 The folowing course information is text that would be presented as power-point slides to supplement lecture. 
 
 My hope is that the student, autodidact, or otherwise curious individual can walk away with from this course with a greater appreciation for both.
 
-27DEC19
+With much sincerity and passion for knowledge,
 
 David Kolesar
+
+27DEC19
+
  
 
 ### Introduction:
