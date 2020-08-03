@@ -269,11 +269,28 @@ If you want to write code, you're going to have to set up a **development enviro
 
 **Setting up a compiler:**
 
-As you recall, the source code (human readable code) that you write needs a compiler to actually compile it into object code. The most frequently used and freely available compiler is the GNU C/C++ compiler. Others do exist, but this compiler is perhaps the most common. We will now install GNU C/C++ compiler on both Windows, Mac, and Linux. 
+As you recall, the source code (human readable code) that you write needs a compiler to actually compile it into object code. The most frequently used and freely available compiler is the GNU C/C++ compiler. Others do exist, but this compiler is perhaps the most common. We will now install GNU C/C++ compiler on both Linux, Mac, and Windows. 
 
 *Note - why are we installing both a C **and** a C++ compiler? What is the difference?*
 
-For the sake of brevity, the major difference between C++ and C is that C++ has a lot of the bells and whistles that C doesn't. Namely, the greatest difference between both these languages is C is a **procedural programming language and does not support classes or objects.** On the otherhand, C++ is an object-oriented programming language and allows for classes / objects. If this is a little confusing, don't worry about because it isn't imperative for our current class. The main point to drive home here is that that the GNU compiler has both C and C++ because this compiler works for both C and C++ programming languages.
+For the sake of brevity, the major difference between C++ and C is that C++ has a lot of the bells and whistles that C doesn't. Namely, the greatest difference between both these languages is C is a **procedural programming language and does not support classes or objects.** On the otherhand, C++ is an object-oriented programming language and allows for classes / objects. If this is a little confusing, don't worry about because it isn't imperative for our current class. The main point to drive home here is that that the GNU compiler has both C and C++ because this compiler works for both C and C++ programming languages. That said, installing the GNU compiler on different computing platforms is very different and gives you a taste for the differences in each one.
+
+**A note on "the best" development platform.**
+
+Things have changed a lot since I was programming in the 90s. Computers were not nearly as common as they were today, and learning a programming language was like learning to interpret hyrogliphics. There wasn't much support. There was no such thing as Stack Overflow (actually until quite recently). Most of the instructions on how to code came from dusty old books that were frequently outdated by the time they were published (which is why online resources are almost always superior). If you felt like tying your phone line up for a few hours and surfing the web for answers, search engines were phenomenally bad. Getting 56k out of a 56k connection was often the exception rather than the rule. Of the resources you reached, bad practices were preached by self-proclaimed gurus who suffered greatly from the Dunning-Kruger Effect. Worst of all, many of the libraries and tools we take for granted today didn't exist yet. 
+
+A major part of this hurdle was that different computing platforms were better suited for programming than others. When I started doing this back when dinosaurs roamed the earth, you could pretty much expect to be laughed out off vBulletin forum you went onto if you were trying to program in anything other than Linux. It was largely considered the gold standard. Windows was generally understood to be the operating system you bought your grandmother so she could play solitaire and use her America Online Free Trial CD. Now, with the growth of personal computing and the fact that technology as a whole has evolved into an integral part of our lives, this is no longer the case. Linux still has a close place in my heart and, anecdotally, I still find the most talented developers use it as their primary computing platform. However, you can program just as easily in Windows or Mac at this point in time. It's good to branch out and know all three, but you should use whatever one you're comfortable with.
+
+**Linux / Unix**
+
+The GNU Compiler Collection (GCC) is a compiler system produced by the GNU Project for all sorts of programming languages. If you are using Linux / UNIX, we have to see whether or not the GCC compiler is already installed. In a terminal, type the following command:
+
+*$ gcc -v*
+
+If it's already installed, it will give you the version. As a general note to the reader, this is usually the surefire way to see if you have any given technology installed on your system. 
+
+If GCC is not installed, you will have to look up how to do it yourself before you move onto the next step. Does you feel like that's just the author being lazy? Love it or hate it, technology changes all the time. A major part of software development is following leads to bridge the gaps of that change. For example, the specific commands used to install the GCC will be different most likely before this text is even published. 
+
 
 
 
