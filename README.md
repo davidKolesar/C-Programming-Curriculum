@@ -136,8 +136,8 @@ Take a look at the helloWorld program in the examples directory (remember, open 
 
 		int main()
 		{
-		printf("Hello, world!");
-		return 0;
+			printf("Hello, world!");
+			return 0;
 		}
 
 Let's dissect this program:
