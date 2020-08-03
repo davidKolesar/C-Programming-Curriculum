@@ -265,6 +265,16 @@ Q. **What is the difference between a signed and unsigned int?**
 
 ### Unit 2: Let's Write Some Code! Setting up an Environment:
 
+If you want to write code, you're going to have to set up a **development environment** to do it. A **Development Environment** is the computer system and software suites that allows a programmer to develop changes in code before deploying it. Simply put, this is going to be the **compiler** and program that you will write your code directly into. This program is known as an **Integrated Development Environment** (or and **IDE**). While you can write code directly into notepad, this does not give you the ability to quickly compile or debug it. Moreover, it does not provide syntax highlighting, make code suggestions, and throw warnings or errors dynamically while you are writing your code. An IDE is an integral tool for actual enterprise software development. 
+
+**Setting up a compiler:**
+
+As you recall, the source code (human readable code) that you write needs a compiler to actually compile it into object code. The most frequently used and freely available compiler is the GNU C/C++ compiler. Others do exist, but this compiler is perhaps the most common. We will now install GNU C/C++ compiler on both Windows, Mac, and Linux. 
+
+*Note - why are we installing both a C **and** a C++ compiler? What is the difference?*
+
+For the sake of brevity, the major difference between C++ and C is that C++ has a lot of the bells and whistles that C doesn't. Namely, the greatest difference between both these languages is C is a **procedural programming language and does not support classes or objects.** On the otherhand, C++ is an object-oriented programming language and allows for classes / objects. If this is a little confusing, don't worry about because it isn't imperative for our current class. The main point to drive home here is that that the GNU compiler has both C and C++ because this compiler works for both C and C++ programming languages.
+
 
 
 ### Unit 2: Components of a C program:
