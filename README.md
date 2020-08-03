@@ -283,7 +283,7 @@ A major part of this hurdle was that different computing platforms were better s
 
 **Linux / Unix**
 
-The GNU Compiler Collection (GCC) is a compiler system produced by the GNU Project for all sorts of programming languages. If you are using Linux / UNIX, we have to see whether or not the GCC compiler is already installed. In a terminal, type the following command:
+The GNU Compiler Collection (GCC) is a compiler system produced by the GNU Project for all sorts of programming languages. If you are using Linux / UNIX, it's highly possible you already have it installed. However, we have to check if that is the case. In a terminal, type the following command:
 
 *$ gcc -v*
 
@@ -291,6 +291,25 @@ If it's already installed, it will give you the version. As a general note to th
 
 If GCC is not installed, you will have to look up how to do it yourself before you move onto the next step. Does you feel like that's just the author being lazy? Love it or hate it, technology changes all the time. A major part of software development is following leads to bridge the gaps of that change. For example, the specific commands used to install the GCC will be different most likely before this text is even published. 
 
+
+
+**Mac**
+
+If you're on Mac, what you're going to be looking for is something called the **Xcode development environment.** If you don't already have it, you can easily get it from Apple's web site. There will be instructions on the download page on how to install it and set it up. If it is configured properly, you will have the GCC set up (which, as mentioned, contains the  GNU compiler for C/C++).
+
+
+**Windows**
+
+To install GCC on Windows, you will need to install someting called MinGW (**Min**imalist **G**NU for **W**indows). MinGW is a free and open source software development environment that allows you to use the GCC. To install MinGW, go to the MinGW homepage (www.mingw.org) and head to the download page. You most likely will want to download the latest version of the MinGW installation. When you download and run this program, it will install MinGW for you. *Just make sure during the isntalation process that you install gcc-core, gcc-g++, binutils, and the MinGW runtime. If you don't do that, stuff most likely won't work.** 
+
+
+Now you get to add the *bin* subdirectory of your MinGW installation to your PATH environment variable. In case you were wondering, this "bin" directory is short for "binaries." This is a convention in Linux/Unix systems found within the root directory. It's purpose is to house the executables that arer required for the machine to actually boot. How you add this is going to be different for each specific version of Windows. 
+
+
+
+**Installing an IDE:**
+
+**This is your first big assignment:** Install the compiler and the IDE. These instructions are intentionally *not explicit* because it will give you a taste of looking things up online and trying to figure out basic computing problems for yourself. If things do not go according to plan or you run into technical errors along the way **do not be discouraged. If you start getting frustrated, remember that if things always worked the way they were supposed to programmers wouldn't be paid.** Unforseen gaps in knowledge or unexpected technical errors are just the name of the game.
 
 
 
