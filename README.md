@@ -136,8 +136,8 @@ Take a look at the helloWorld program in the examples directory (remember, open 
 
 		int main()
 		{
-			printf("Hello, world!");
-			return 0;
+		printf("Hello, world!");
+		return 0;
 		}
 
 Let's dissect this program:
@@ -313,7 +313,7 @@ Now you get to add the *bin* subdirectory of your MinGW installation to your PAT
 
 
 
-### Unit 2: Components of a C program:
+### Unit 3: Components of a C program:
 
 **_Statements_**
 
@@ -616,7 +616,7 @@ Write a program that evaluates a variable and calculates if it is a prime number
 
 **Interactive Extra Credit Answer can be found at:** https://onlinegdb.com/HJBgnwMxD or in PrimeNumberExample within this repository.
 
-### Unit 3: Functions:
+### Unit 4: Functions:
 
 Functions are a fundamental component of C programming and virtually all modern languages. While you have already been exposed to some functions from the C library, this unit will focus on creating our own functions and understanding each component. Simply put, a **function** is a named, indepedent block of code that does a specific thing that can be called within other sections of code. We're going to see why these are important with a real life example. 
 
