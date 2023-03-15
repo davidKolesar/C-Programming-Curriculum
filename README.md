@@ -82,7 +82,7 @@ This source code is the human readable language that we use to give a computer a
 1. **Object Files ( .obj or .o)** 
 The source code is **compiled** by something known as a **compiler.** The process of **compiling** code is when it is turned from human readable source code into machine code (binary). This resulting machine code you are left with is known as **object code.** The disk file containing them is an [object file](https://en.wikipedia.org/wiki/Object_file).*
 
-One of the main catches here is that **a program cannot compile if there are structural / syntatic errors.** If these are present in your code, the compiler will oomplain and give you a detailed error message explaining why it did not work(known as a **stack trace**). If the source code is error-free, then it generates the object code.
+One of the main catches here is that **a program cannot compile if there are structural / syntactic  errors.** If these are present in your code, the compiler will complain and give you a detailed error message explaining why it did not work(known as a **stack trace**). If the source code is error-free, then it generates the object code.
 
  
 2. **Header Files -- Linking  (.h)**
